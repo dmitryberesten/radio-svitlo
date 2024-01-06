@@ -1,2 +1,1 @@
 # radio-svitlo
-Мо
