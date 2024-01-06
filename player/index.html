@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Музичний плеєр</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="player">
+    <div class="cover"></div>
+    <div class="track-info">
+      <div class="track-title"></div>
+      <div class="artist"></div>
+    </div>
+    <audio id="audio-player"></audio>
+    <div class="controls">
+      <button id="play-btn">Play</button>
+      <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+    </div>
+  </div>
+  <script src="./player.js"></script>
+</body>
+</html>

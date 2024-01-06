@@ -1,0 +1,186 @@
+.player {
+  /* max-width: 300px; */
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  /* background-color: #f1f1f1; */
+  /* padding-bottom: 0; */
+}
+
+.cover {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  border-radius: 50%;
+
+  /* position: relative; */
+}
+
+/* .cover::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+} */
+
+.playing {
+  animation-name: rotateAnimation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.track-info {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #b8b8b8;
+  margin: 0 auto;
+}
+
+.track-title {
+  font-weight: 700;
+
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+  /* margin-bottom: 10px; */
+  color: black;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#duration {
+  margin-top: 10px;
+}
+
+.duration,
+.remaining-time {
+  color: white;
+  display: none;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -10px;
+  display: none;
+}
+
+.duration-slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Для десктопу */
+@media screen and (min-width: 768px) {
+  .player {
+    width: 100%;
+    display: flex;
+  }
+
+  .cover {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Для планшету */
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .player {
+    max-width: 300px;
+  }
+
+  .cover {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Для мобільного пристрою */
+@media screen and (max-width: 480px) {
+  .player {
+    max-width: 200px;
+  }
+
+  .cover {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.player-fixed {
+  position: fixed;
+  top: 81.2vh;
+  z-index: 100;
+  margin-top: auto;
+  width: 100%;
+  background-color: #262626;
+  border: 1px solid #363636;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.text-live {
+  color: red;
+  font-size: 1.3em;
+  font-family: inherit;
+}
+
+.playpause {
+  display: block;
+    font-size: 89px !important;
+    margin-bottom: -1px !important;
+    color: #262626;
+}
