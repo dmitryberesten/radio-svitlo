@@ -52,7 +52,7 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">Головна</a></li>
-                                    <li><a href="albums-store.html">Виконавці</a></li>
+                                    <li><a href="#artists" class="scroll">Виконавці</a></li>
                                     <!-- <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="index.html">Home</a></li>
@@ -201,7 +201,7 @@
     </div> -->
 
     <!-- ##### Latest Albums Area Start ##### -->
-    <section class="latest-albums-area section-padding-100">
+    <section class="latest-albums-area section-padding-100" id="artists">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1261,6 +1261,8 @@
 
     </section>
 
+
+
     <!-- ##### Footer Area Start ##### -->
     <script src="./player/player.js"></script>
 
@@ -1276,6 +1278,25 @@
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var scrollLinks = document.querySelectorAll('.scroll');
+
+        scrollLinks.forEach(function (scrollLink) {
+            scrollLink.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                var targetId = this.getAttribute('href').substring(1);
+                var targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    });
+</script>
 </body>
 
 </html>
