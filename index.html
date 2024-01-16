@@ -24,7 +24,7 @@
     </div>
 
     <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
+    <header class="header-area" id="main">
         <!-- Navbar Area -->
         <div class="oneMusic-main-menu">
             <div class="classy-nav-container breakpoint-off">
@@ -33,7 +33,8 @@
                     <nav class="classy-navbar justify-content-between" id="oneMusicNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand" style="color: white; max-width: 190px;">RADIO SVITLO <i class="icon-idea"></i></a>
+                        <a href="index.html" class="nav-brand" style="color: white; max-width: 190px;">RADIO SVITLO <i
+                                class="icon-idea"></i></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -51,7 +52,7 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Головна</a></li>
+                                    <li><a href="#main" class="scroll">Головна</a></li>
                                     <li><a href="#artists" class="scroll">Виконавці</a></li>
                                     <!-- <li><a href="#">Pages</a>
                                         <ul class="dropdown">
@@ -85,7 +86,7 @@
                                     <!-- <li><a href="blog.html">News</a></li> -->
                                     <li><a href="contact.html">Контакти</a></li>
                                     <li><a href="contact.html" style="text-transform: none;">Про нас</a></li>
-                                    <li><a href="contact.html">Донат</a></li>
+                                    <li><a href="#donate" class="scroll">Донат</a></li>
                                 </ul>
 
                                 <!-- Login/Register & Cart Button -->
@@ -124,7 +125,8 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h6 data-animation="fadeInUp" data-delay="100ms">Свіжий трек</h6>                                <h2 data-animation="fadeInUp" data-delay="300ms">В небеса <span>В небеса</span>
+                                <h6 data-animation="fadeInUp" data-delay="100ms">Свіжий трек</h6>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">В небеса <span>В небеса</span>
                                 </h2>
 
                                 <!-- <a data-animation="fadeInUp" data-delay="500ms" href="#"
@@ -201,13 +203,13 @@
     </div> -->
 
     <!-- ##### Latest Albums Area Start ##### -->
-    <section class="latest-albums-area section-padding-100" id="artists">
+    <section class="latest-albums-area section-padding-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading style-2">
                         <p>Новинки</p>
-                        <h2>Популярні виконавці</h2>
+                        <h2>Популярні альбоми</h2>
                     </div>
                 </div>
             </div>
@@ -313,13 +315,13 @@
     </section>
 
     <!-- ##### Buy Now Area Start ##### -->
-    <section class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100">
+    <section class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100" id="artists">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading style-2">
                         <p>Новинки</p>
-                        <h2>Україномовні альбоми</h2>
+                        <h2>Популярні виконавці</h2>
                     </div>
                 </div>
             </div>
@@ -533,7 +535,7 @@
 
             </div>
 
-           
+
         </div>
     </section>
     <!-- ##### Buy Now Area End ##### -->
@@ -552,7 +554,7 @@
                     <div class="featured-artist-content">
                         <div class="section-heading white text-left mb-30">
                             <p>Цікаве</p>
-                            <h2>Виконавець місяця</h2>
+                            <h2>Пісня місяця</h2>
                         </div>
                         <p>Nam tristique ex vel magna tincidunt, ut porta nisl finibus. Vivamus eu dolor eu quam varius
                             rutrum. Fusce nec justo id sem aliquam fringilla nec non lacus. Suspendisse eget lobortis
@@ -865,25 +867,28 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-9">
                     <div class="ablums-text text-center mb-50">
-                        <p>Якщо Ви маєте авторську україномовну християнську пісню і хочете щоб вона звучала на нашому музичному онлайн-радіо Ви можете надіслати заявку адміністратору в телеграм</p>
+                        <p>Якщо Ви маєте авторську україномовну християнську пісню і хочете щоб вона звучала на нашому
+                            музичному онлайн-радіо Ви можете надіслати заявку адміністратору в телеграм</p>
                     </div>
                 </div>
             </div>
-    
-        <div class="row">
-            <div class="col-12">
-                <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="300ms" style="margin-bottom: 50px;">
-                    <a href="https://t.me/dmitryberesten" class="btn oneMusic-btn" target="_blank"><i class="icon-music"> </i>Надіслати<i class="icon-cursor"></i></a>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="300ms"
+                        style="margin-bottom: 50px;">
+                        <a href="https://t.me/dmitryberesten" class="btn oneMusic-btn" target="_blank"><i
+                                class="icon-music"> </i>Надіслати<i class="icon-cursor"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
-   
+
     <!-- ##### Miscellaneous Area End ##### -->
     <!-- ========== Progress Bars & Accordions ========== -->
     <div class="col-12">
-        
+
         <div class="elements-title mb-70" style="text-align: center;">
             <h2>Питання &amp; Відповіді</h2>
         </div>
@@ -1012,18 +1017,41 @@
         </div>
     </div>
 
-                    <!-- ========== Milestones ========== -->
-                   
+    <!-- ##### Login Area Start ##### -->
+    <section class="login-area section-padding-100" id="donate">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="login-content">
+                        <h3>Донат</h3>
+                        <h4>5457 0825 0079 9163</h4>
+                        <p>Якщо Ви хочете підтримати проєкт будь-якою сумою - ви можете це зробити легко та швидко.
+                            Для того, щоб існувало це християнське музичне онлайн-радіо, необхідні різні речі такі як:
+                            оплата доменного імені, оплата хостингу,
+                            оплата реклами.
+
+                            Дякуємо за підтримку та бажаємо всього найкращого!</p>
+                        <h2><i class="icon-credit-card"></i></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Login Area End ##### -->
+
+
+    <!-- ========== Milestones ========== -->
+
     <div class="col-12">
         <div class="elements-title mb-70" style="text-align: center; max-width: 1000px; margin: 0 auto;">
             <h2>Наші цілі</h2>
         </div>
     </div>
-    
+
     <div class="col-12">
         <div class="oneMusic-cool-facts-area">
             <div class="row" style="max-width: 1000px; margin: 0 auto; justify-content: center; text-align: center;">
-    
+
                 <!-- Single Cool Facts -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="single-cool-fact mb-100">
@@ -1033,7 +1061,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Single Cool Facts -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="single-cool-fact mb-100">
@@ -1043,7 +1071,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Single Cool Facts -->
                 <div class="col-12 col-sm-6 col-lg-2">
                     <div class="single-cool-fact mb-100">
@@ -1053,7 +1081,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Single Cool Facts -->
                 <!-- <div class="col-12 col-sm-6 col-lg-2">
                     <div class="single-cool-fact mb-100">
@@ -1063,7 +1091,7 @@
                         </div>
                     </div>
                 </div> -->
-    
+
                 <!-- Single Cool Facts -->
                 <!-- <div class="col-12 col-sm-6 col-lg-2">
                     <div class="single-cool-fact mb-100">
@@ -1073,12 +1101,12 @@
                         </div>
                     </div>
                 </div> -->
-    
+
             </div>
         </div>
     </div>
-                    
-                
+
+
 
     <!-- ##### Contact Area Start ##### -->
     <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img"
@@ -1208,15 +1236,16 @@
         <div class="container">
             <div class="row d-flex flex-wrap align-items-center">
                 <div class="col-12 col-md-6">
-                    <a href="#" style="color: white; max-width: 155px; font-size: 20px;">RADIO SVITLO <i class="icon-idea"></i></a>
+                    <a href="#" style="color: white; max-width: 155px; font-size: 20px;">RADIO SVITLO <i
+                            class="icon-idea"></i></a>
                     <p class="copywrite-text"><a href="#">
-                             &copy;
+                            &copy;
                             <script>document.write(new Date().getFullYear());</script> All rights reserved | This
                             website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href=""
                                 target="_blank">Dima Beresten</a>
                     </p>
                 </div>
- 
+
                 <div class="col-12 col-md-6" style="text-align: end; color: white; font-size: 30px;">
                     <div class="footer-nav">
                         <!-- <ul>
@@ -1227,7 +1256,7 @@
                             <li><a href="#">Донат</a></li>
                         </ul> -->
                     </div>
-                    <span><i class="icon-music note"></i></span> 
+                    <span><i class="icon-music note"></i></span>
                 </div>
             </div>
         </div>
@@ -1257,7 +1286,8 @@
             <div id="remaining-time" class="remaining-time">00:00</div>
         </div>
         <!-- Додали новий елемент для тривалості пісні -->
-        <input type="range" id="duration-slider" class="duration-slider" min="0" max="100" step="1" value="0">
+        <input type="range" id="duration-slider" class="duration-slider" min="0" max="100" step="1" value="0"
+            style="display: none;">
 
     </section>
 
@@ -1279,24 +1309,24 @@
     <!-- Active js -->
     <script src="js/active.js"></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var scrollLinks = document.querySelectorAll('.scroll');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var scrollLinks = document.querySelectorAll('.scroll');
 
-        scrollLinks.forEach(function (scrollLink) {
-            scrollLink.addEventListener('click', function (event) {
-                event.preventDefault();
+            scrollLinks.forEach(function (scrollLink) {
+                scrollLink.addEventListener('click', function (event) {
+                    event.preventDefault();
 
-                var targetId = this.getAttribute('href').substring(1);
-                var targetElement = document.getElementById(targetId);
+                    var targetId = this.getAttribute('href').substring(1);
+                    var targetElement = document.getElementById(targetId);
 
-                if (targetElement) {
-                    targetElement.scrollIntoView({ behavior: 'smooth' });
-                }
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
             });
         });
-    });
-</script>
+    </script>
 </body>
 
 </html>
