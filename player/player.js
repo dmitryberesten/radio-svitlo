@@ -1,10 +1,10 @@
 (function () {
   const tracks = [
     {
-      title: "Track 1",
-      artist: "Artist 1",
-      cover: "./player/songs/cover/1.jpg",
-      source: "./player/songs/track/1.m4a",
+      title: "Зброя",
+      artist: "Liam Fisher feat Саша Чеф",
+      cover: "../music/Liam_Fisher/zbroja.jpg",
+      source: "../music/Liam_Fisher/zbroja.mp3",
     },
     {
       title: "Track 2",
