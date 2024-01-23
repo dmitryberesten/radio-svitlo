@@ -2458,12 +2458,12 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
-  .d-none {
+  .disp-none {
     display: none;
 
   }
 
-  .d-big {
+  .disp-big {
         font-size: 40px;
           width: 40px;
           height: 40px;
