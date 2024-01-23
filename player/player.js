@@ -42,6 +42,24 @@
       cover: "../music/Pavlo_Volkov/profile.jpg",
       source: "../music/Pavlo_Volkov/farby.mp3",
     },
+    {
+      title: "Небо",
+      artist: "KVANT",
+      cover: "../music/KVANT/profile.jpg",
+      source: "../music/KVANT/nebo.mp3",
+    },
+    {
+      title: "Над Водою (Karmv&Maver Remix)",
+      artist: "ILO.NA",
+      cover: "../music/ILO.NA/profile.jpg",
+      source: "../music/ILO.NA/nad_vodoyu.mp3",
+    },
+    // {
+    //   title: "",
+    //   artist: "",
+    //   cover: "../music",
+    //   source: "../music",
+    // },
   ];
 
   let currentTrackIndex = 0;
@@ -72,7 +90,6 @@
     cover.classList.add("playing");
     playPauseBtn.classList.remove("icon-play-button");
     playPauseBtn.classList.add("icon-pause");
-
   }
 
   function pauseTrack() {
