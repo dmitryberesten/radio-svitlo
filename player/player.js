@@ -49,10 +49,16 @@
       source: "../music/KVANT/nebo.mp3",
     },
     {
-      title: "Над Водою (Karmv&Maver Remix)",
+      title: "Над Водою",
       artist: "ILO.NA",
       cover: "../music/ILO.NA/profile.jpg",
       source: "../music/ILO.NA/nad_vodoyu.mp3",
+    },
+    {
+      title: "Світло",
+      artist: "KaVa",
+      cover: "../music/KaVa/profile.jpg",
+      source: "../music/KaVa/svitlo.mp3",
     },
     // {
     //   title: "",
