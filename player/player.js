@@ -60,6 +60,12 @@
       cover: "../music/KaVa/profile.jpg",
       source: "../music/KaVa/svitlo.mp3",
     },
+    {
+      title: "Не залишу",
+      artist: "Yurii Sobchenko",
+      cover: "../music/Yurii_Sobchenko/profile.jpg",
+      source: "../music/Yurii_Sobchenko/ne_zalushy.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
