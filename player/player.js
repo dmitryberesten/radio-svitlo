@@ -66,6 +66,12 @@
       cover: "../music/Yurii_Sobchenko/profile.jpg",
       source: "../music/Yurii_Sobchenko/ne_zalushy.mp3",
     },
+    {
+      title: "Такої нема",
+      artist: "Dina Shelpuk",
+      cover: "../music/Dina_Shelpuk/profile.jpg",
+      source: "../music/Dina_Shelpuk/takoi_nema.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
