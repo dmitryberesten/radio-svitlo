@@ -72,6 +72,12 @@
       cover: "../music/Dina_Shelpuk/profile.jpg",
       source: "../music/Dina_Shelpuk/takoi_nema.mp3",
     },
+    {
+      title: "Січ",
+      artist: "Sasha Chef",
+      cover: "../music/Sasha_Chef/profile.jpg",
+      source: "../music/Sasha_Chef/sich.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
