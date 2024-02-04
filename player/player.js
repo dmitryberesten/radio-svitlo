@@ -78,6 +78,12 @@
       cover: "../music/Sasha_Chef/profile.jpg",
       source: "../music/Sasha_Chef/sich.mp3",
     },
+    {
+      title: "Спини весну",
+      artist: "Roman Vashchuk",
+      cover: "../music/Roman_Vashchuk/profile.jpg",
+      source: "../music/Roman_Vashchuk/vesna.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",

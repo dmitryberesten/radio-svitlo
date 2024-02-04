@@ -2464,8 +2464,12 @@ img {
   }
 
   .disp-big {
-        font-size: 40px;
-          width: 40px;
-          height: 40px;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
   }
+}
+
+.artists-2-block {
+  display: none;
 }
