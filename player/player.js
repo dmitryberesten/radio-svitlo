@@ -84,6 +84,12 @@
       cover: "../music/Roman_Vashchuk/profile.jpg",
       source: "../music/Roman_Vashchuk/vesna.mp3",
     },
+    {
+      title: "Від початку",
+      artist: "Katia Simchuk",
+      cover: "../music/Katia_Simchuk/profile.jpg",
+      source: "../music/Katia_Simchuk/pochatok.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
