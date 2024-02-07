@@ -90,6 +90,12 @@
       cover: "../music/Katia_Simchuk/profile.jpg",
       source: "../music/Katia_Simchuk/pochatok.mp3",
     },
+    {
+      title: "Цар Слави",
+      artist: "Крізь cтіни",
+      cover: "../music/Kriz_Stiny/profile.jpg",
+      source: "../music/Kriz_Stiny/Tsar_Slavy.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
