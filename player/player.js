@@ -102,6 +102,12 @@
       cover: "../music/Irena_Pasichnyk/profile.jpg",
       source: "../music/Irena_Pasichnyk/ya_ydu_do_Tebe.mp3",
     },
+    {
+      title: "Боже мій",
+      artist: "Anastasiya Polo",
+      cover: "../music/Anastasiya_Polo/profile.jpg",
+      source: "../music/Anastasiya_Polo/Bozhe_mij.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
