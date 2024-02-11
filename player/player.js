@@ -108,6 +108,12 @@
       cover: "../music/Anastasiya_Polo/profile.jpg",
       source: "../music/Anastasiya_Polo/Bozhe_mij.mp3",
     },
+    {
+      title: "Не мовчи",
+      artist: "Ірина Кибукевич",
+      cover: "../music/Iryna_Kibukievich/profile.jpg",
+      source: "../music/Iryna_Kibukievich/ne_movchy.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
