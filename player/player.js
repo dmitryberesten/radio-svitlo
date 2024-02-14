@@ -114,6 +114,12 @@
       cover: "../music/Iryna_Kibukievich/profile.jpg",
       source: "../music/Iryna_Kibukievich/ne_movchy.mp3",
     },
+    {
+      title: "Не здавайся",
+      artist: "RULADA",
+      cover: "../music/RULADA/profile.jpg",
+      source: "../music/RULADA/ne_zdavaysya.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
