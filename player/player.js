@@ -120,6 +120,12 @@
       cover: "../music/RULADA/profile.jpg",
       source: "../music/RULADA/ne_zdavaysya.mp3",
     },
+    {
+      title: "Тільки з Богом",
+      artist: "ANNIKA",
+      cover: "../music/ANNIKA/profile.jpg",
+      source: "../music/ANNIKA/tilky_z_Bogom.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
