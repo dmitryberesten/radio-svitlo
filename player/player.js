@@ -126,6 +126,12 @@
       cover: "../music/ANNIKA/profile.jpg",
       source: "../music/ANNIKA/tilky_z_Bogom.mp3",
     },
+    {
+      title: "Герой",
+      artist: "MyMammaWannaSleep!",
+      cover: "../music/MyMammaWannaSleep!/profile.jpg",
+      source: "../music/MyMammaWannaSleep!/geroy.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
