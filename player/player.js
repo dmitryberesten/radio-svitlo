@@ -132,6 +132,12 @@
       cover: "../music/MyMammaWannaSleep!/profile.jpg",
       source: "../music/MyMammaWannaSleep!/geroy.mp3",
     },
+    {
+      title: "Доброго вечора",
+      artist: "Bria Blessing",
+      cover: "../music/Bria_Blessing/profile.jpg",
+      source: "../music/Bria_Blessing/vecher.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
