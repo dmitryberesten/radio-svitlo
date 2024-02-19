@@ -138,6 +138,18 @@
       cover: "../music/Bria_Blessing/profile.jpg",
       source: "../music/Bria_Blessing/vecher.mp3",
     },
+    {
+      title: "Бігти",
+      artist: "Nastia Lykhosherstova",
+      cover: "../music/Anastasia_Lykhosherstova/profile.jpg",
+      source: "../music/Anastasia_Lykhosherstova/bigty.mp3",
+    },
+    {
+      title: "Якщо б не Ти",
+      artist: "Денис Нікітін",
+      cover: "../music/Denys_Nikitin/profile.jpg",
+      source: "../music/Denys_Nikitin/ty.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
