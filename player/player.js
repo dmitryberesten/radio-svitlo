@@ -174,6 +174,30 @@
       cover: "../music/neyzho/profile.jpg",
       source: "../music/neyzho/de_b_ya_ne_buv.mp3",
     },
+    {
+      title: "Болить",
+      artist: "Anna-Kristina",
+      cover: "../music/Anna-Kristina/profile.jpg",
+      source: "../music/Anna-Kristina/bolyt.mp3",
+    },
+    {
+      title: "Не відпускай",
+      artist: "Lei La",
+      cover: "../music/Lei-La/profile.jpg",
+      source: "../music/Lei-La/ne_vidpuskay.mp3",
+    },
+    {
+      title: "Додому",
+      artist: "Kana Band",
+      cover: "../music/Kana-Band/profile.jpg",
+      source: "../music/Kana-Band/dodomu.mp3",
+    },
+    {
+      title: "Ти зі мною",
+      artist: "Christina Longs",
+      cover: "../music/Christina_Longs/profile.jpg",
+      source: "../music/Christina_Longs/ty_zi_mnoyu.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
