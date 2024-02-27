@@ -185,10 +185,12 @@ input[type="range"] {
 .player-fixed {
   position: fixed;
   /* top: 88%; */
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
   z-index: 100;
   margin-top: auto;
-  width: 100%;
+  width: 40%;
   background-color: black;
   border: 1px solid #363636;
   border-top-right-radius: 15px;

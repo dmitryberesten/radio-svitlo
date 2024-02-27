@@ -206,8 +206,11 @@
     // },
   ];
 
+
   let currentTrackIndex = 0;
   const audioPlayer = document.getElementById("audio-player");
+  audioPlayer.volume = 0;
+
   const playBtn = document.getElementById("play-btn");
   const playPauseBtn = document.getElementById("playpause");
 
@@ -218,6 +221,21 @@
   const durationDisplay = document.getElementById("duration");
   const durationSlider = document.getElementById("duration-slider");
   const remainingTimeDisplay = document.getElementById("remaining-time");
+  const muteBtn = document.getElementById("mute-btn");
+
+  muteBtn.addEventListener("click", () => {
+    if (audioPlayer.volume === 0) {
+      // Якщо гучність вже вимкнена, вмикаємо її (встановлюємо 100%)
+      audioPlayer.volume = 1.0;
+      muteBtn.classList.remove("icon-speaker");
+      muteBtn.classList.add("icon-speakers");
+    } else {
+      // Якщо гучність не вимкнена, вимикаємо її (встановлюємо 0%)
+      audioPlayer.volume = 0;
+      muteBtn.classList.remove("icon-speakers");
+      muteBtn.classList.add("icon-speaker");
+    }
+  });
 
   function loadTrack(trackIndex) {
     const track = tracks[trackIndex];
@@ -303,6 +321,7 @@
 
   shuffleTracks();
   loadTrack(currentTrackIndex);
+  playTrack();
 
   durationSlider.disabled = true;
 })();

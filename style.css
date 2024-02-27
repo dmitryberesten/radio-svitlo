@@ -2473,3 +2473,22 @@ img {
 .artists-2-block {
   display: none;
 }
+
+.icon-volumes {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  outline: none !important;
+}
+
+/* .icon-volume-mute {} */
+
+.icon-speaker {
+  font-size: 40px;
+}
+
+.icon-speakers {
+  font-size: 40px;
+}
