@@ -210,6 +210,7 @@
   let currentTrackIndex = 0;
   const audioPlayer = document.getElementById("audio-player");
   audioPlayer.volume = 0;
+  audioPlayer.play();
 
   const playBtn = document.getElementById("play-btn");
   const playPauseBtn = document.getElementById("playpause");
