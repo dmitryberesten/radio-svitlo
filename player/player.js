@@ -209,8 +209,8 @@
 
   let currentTrackIndex = 0;
   const audioPlayer = document.getElementById("audio-player");
-  audioPlayer.volume = 0;
-  audioPlayer.play();
+  // audioPlayer.volume = 0;
+  // audioPlayer.play();
 
   const playBtn = document.getElementById("play-btn");
   const playPauseBtn = document.getElementById("playpause");
@@ -223,18 +223,19 @@
   const durationSlider = document.getElementById("duration-slider");
   const remainingTimeDisplay = document.getElementById("remaining-time");
   const muteBtn = document.getElementById("mute-btn");
+  muteBtn.style.display = "none";
 
   muteBtn.addEventListener("click", () => {
     if (audioPlayer.volume === 0) {
       // Якщо гучність вже вимкнена, вмикаємо її (встановлюємо 100%)
       audioPlayer.volume = 1.0;
-      muteBtn.classList.remove("icon-speaker");
       muteBtn.classList.add("icon-speakers");
+      muteBtn.classList.remove("icon-speaker");
     } else {
       // Якщо гучність не вимкнена, вимикаємо її (встановлюємо 0%)
       audioPlayer.volume = 0;
-      muteBtn.classList.remove("icon-speakers");
       muteBtn.classList.add("icon-speaker");
+      muteBtn.classList.remove("icon-speakers");
     }
   });
 
@@ -253,6 +254,9 @@
     cover.classList.add("playing");
     playPauseBtn.classList.remove("icon-play-button");
     playPauseBtn.classList.add("icon-pause");
+
+    muteBtn.style.display = "inline-block"; // Показати кнопку mute-btn при відтворенні
+    playBtn.style.display = "none"; // приховати кнопку play 
   }
 
   function pauseTrack() {
@@ -322,7 +326,7 @@
 
   shuffleTracks();
   loadTrack(currentTrackIndex);
-  playTrack();
+  // playTrack();
 
   durationSlider.disabled = true;
 })();
