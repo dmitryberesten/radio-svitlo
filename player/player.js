@@ -238,7 +238,8 @@
     cover.style.backgroundImage = `url(${track.cover})`;
   }
 
-  function playTrack() {
+  function playTrack(startTime = 0) {
+    audioPlayer.currentTime = startTime; // Встановлюємо початковий час програвання
     audioPlayer.play();
     cover.classList.add("playing");
     playPauseBtn.classList.remove("icon-play-button");
@@ -247,12 +248,19 @@
     playBtn.style.display = "none";
   }
 
-  function pauseTrack() {
-    audioPlayer.pause();
-    cover.classList.remove("playing");
-    playPauseBtn.classList.remove("icon-pause");
-    playPauseBtn.classList.add("icon-play-button");
-  }
+  playBtn.addEventListener("click", () => {
+    if (audioPlayer.paused) {
+      const randomStartTime = Math.random() * audioPlayer.duration;
+      playTrack(randomStartTime);
+      // Показуємо кнопку з гучністю при кліку на кнопку "play"
+      muteBtn.classList.remove("visually-hidden");
+    } else {
+      audioPlayer.pause();
+      cover.classList.remove("playing");
+      playPauseBtn.classList.remove("icon-pause");
+      playPauseBtn.classList.add("icon-play-button");
+    }
+  });
 
   function updateDuration() {
     const minutes = Math.floor(audioPlayer.currentTime / 60);
@@ -281,7 +289,6 @@
     if (audioPlayer.paused) {
       playTrack();
     } else {
-      pauseTrack();
     }
   });
 
