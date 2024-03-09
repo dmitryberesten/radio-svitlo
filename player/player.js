@@ -206,16 +206,10 @@
     // },
   ];
 
-
   let currentTrackIndex = 0;
   const audioPlayer = document.getElementById("audio-player");
-  // audioPlayer.volume = 0;
-  // audioPlayer.play();
-
   const playBtn = document.getElementById("play-btn");
   const playPauseBtn = document.getElementById("playpause");
-
-  // const volumeSlider = document.getElementById("volume-slider");
   const trackTitle = document.querySelector(".track-title");
   const artist = document.querySelector(".artist");
   const cover = document.querySelector(".cover");
@@ -223,16 +217,13 @@
   const durationSlider = document.getElementById("duration-slider");
   const remainingTimeDisplay = document.getElementById("remaining-time");
   const muteBtn = document.getElementById("mute-btn");
-  muteBtn.style.display = "none";
 
   muteBtn.addEventListener("click", () => {
     if (audioPlayer.volume === 0) {
-      // Якщо гучність вже вимкнена, вмикаємо її (встановлюємо 100%)
       audioPlayer.volume = 1.0;
       muteBtn.classList.add("icon-speakers");
       muteBtn.classList.remove("icon-speaker");
     } else {
-      // Якщо гучність не вимкнена, вимикаємо її (встановлюємо 0%)
       audioPlayer.volume = 0;
       muteBtn.classList.add("icon-speaker");
       muteBtn.classList.remove("icon-speakers");
@@ -249,29 +240,18 @@
 
   function playTrack() {
     audioPlayer.play();
-    // playBtn.textContent = "Pause";
-
     cover.classList.add("playing");
     playPauseBtn.classList.remove("icon-play-button");
     playPauseBtn.classList.add("icon-pause");
-
-    muteBtn.style.display = "inline-block"; // Показати кнопку mute-btn при відтворенні
-    playBtn.style.display = "none"; // приховати кнопку play 
+    muteBtn.style.display = "inline-block";
+    playBtn.style.display = "none";
   }
 
   function pauseTrack() {
     audioPlayer.pause();
-    // playBtn.textContent = "Play";
-
     cover.classList.remove("playing");
     playPauseBtn.classList.remove("icon-pause");
     playPauseBtn.classList.add("icon-play-button");
-  }
-
-  function stopTrack() {
-    audioPlayer.pause();
-    audioPlayer.currentTime = 0;
-    playBtn.textContent = "Play";
   }
 
   function updateDuration() {
@@ -305,10 +285,6 @@
     }
   });
 
-  // volumeSlider.addEventListener("input", () => {
-  //   audioPlayer.volume = volumeSlider.value;
-  // });
-
   audioPlayer.addEventListener("ended", () => {
     currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
     loadTrack(currentTrackIndex);
@@ -326,7 +302,5 @@
 
   shuffleTracks();
   loadTrack(currentTrackIndex);
-  // playTrack();
-
   durationSlider.disabled = true;
 })();
