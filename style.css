@@ -1357,6 +1357,7 @@ img {
 .single-song-area {
   position: relative;
   z-index: 1;
+  padding: 15px 30px !important;
 }
 
 .single-song-area .song-thumbnail {
@@ -1409,7 +1410,7 @@ img {
 
 .single-song-area .song-play-area .song-name p {
   color: #b8b8b8;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .single-song-area .song-play-area .audioplayer {
@@ -2491,4 +2492,8 @@ img {
 
 .icon-speakers {
   font-size: 40px;
+}
+
+.text-song-month {
+  padding: 15px 30px !important;
 }
