@@ -254,15 +254,24 @@ input[type="range"] {
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 .volume-slider {
   display: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 
   border-radius: 5px;
   background: black;
   outline: none;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
   transform: rotate(270deg);
   position: absolute;
 
@@ -271,18 +280,15 @@ input[type="range"] {
   bottom: 145px;
 
   opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out !important;
+  -o-transition: opacity 0.3s ease-in-out !important;
   transition: opacity 0.3s ease-in-out !important;
 }
 
 .volume-slider.show {
   display: block;
   opacity: 1;
-  /* pointer-events: auto; */
 }
-
-/* .volume-slider:not(.show) {
-  display: none;
-} */
 
 .volume-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
