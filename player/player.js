@@ -217,18 +217,37 @@
   const durationSlider = document.getElementById("duration-slider");
   const remainingTimeDisplay = document.getElementById("remaining-time");
   const muteBtn = document.getElementById("mute-btn");
+  const volumeSlider = document.getElementById("volume-slider");
 
   muteBtn.addEventListener("click", () => {
-    if (audioPlayer.volume === 0) {
-      audioPlayer.volume = 1.0;
-      muteBtn.classList.add("icon-speakers");
-      muteBtn.classList.remove("icon-speaker");
-    } else {
-      audioPlayer.volume = 0;
-      muteBtn.classList.add("icon-speaker");
-      muteBtn.classList.remove("icon-speakers");
-    }
+    // Відображення або приховання інпута гучності з анімацією
+    volumeSlider.classList.toggle("show");
+
+    // Автоматичне сховання інпута через 3 секунди
+    setTimeout(() => {
+      volumeSlider.classList.remove("show");
+    }, 5000);
   });
+
+  volumeSlider.addEventListener("input", () => {
+    audioPlayer.volume = volumeSlider.value;
+  });
+
+  // volumeSlider.addEventListener("click", (event) => {
+  //   event.stopPropagation();
+  // });
+
+  // muteBtn.addEventListener("click", () => {
+  //   if (audioPlayer.volume === 0) {
+  //     audioPlayer.volume = 1.0;
+  //     muteBtn.classList.add("icon-speakers");
+  //     muteBtn.classList.remove("icon-speaker");
+  //   } else {
+  //     audioPlayer.volume = 0;
+  //     muteBtn.classList.add("icon-speakers");
+  //     muteBtn.classList.remove("icon-speaker");
+  //   }
+  // });
 
   function loadTrack(trackIndex) {
     const track = tracks[trackIndex];
