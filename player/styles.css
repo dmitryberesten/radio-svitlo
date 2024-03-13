@@ -197,6 +197,49 @@ input[type="range"] {
   border-top-left-radius: 15px;
 }
 
+@media screen and (max-width: 1200px) {
+.player-fixed {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .player-fixed {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .player-fixed {
+    width: 60%;
+  }
+
+  .player {
+    display: flex;
+    max-width: 500px;
+  }
+
+  .cover {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .player-fixed {
+    width: 100%;
+  }
+
+  .cover {
+    width: 70px;
+    height: 70px;
+  }
+
+  #scrollUp {
+    bottom: 120px !important;
+  }
+}
+
 .text-live {
   color: red;
   font-size: 1.3em;
