@@ -2497,3 +2497,15 @@ img {
 .text-song-month {
   padding: 15px 30px !important;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+  .icon-speakers {
+    font-size: 70px;
+    pointer-events: none;
+  }
+
+}
+
+
