@@ -2506,6 +2506,17 @@ img {
     pointer-events: none;
   }
 
+  .mobile-responsive {
+    max-width: 50% !important;
+  }
+
+  .upload-song {
+    width: 90% !important;
+  }
+
+  .team-border {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
 }
-
-
