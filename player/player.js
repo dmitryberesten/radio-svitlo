@@ -218,6 +218,7 @@
   const remainingTimeDisplay = document.getElementById("remaining-time");
   const muteBtn = document.getElementById("mute-btn");
   const volumeSlider = document.getElementById("volume-slider");
+  const mobSoundBtn = document.querySelector(".mob-sound-on");
 
   muteBtn.addEventListener("click", () => {
     // Відображення або приховання інпута гучності з анімацією
@@ -233,21 +234,16 @@
     audioPlayer.volume = volumeSlider.value;
   });
 
-  // volumeSlider.addEventListener("click", (event) => {
-  //   event.stopPropagation();
-  // });
+  mobSoundBtn.addEventListener("click", () => {
+    mobSoundBtn.classList.toggle("icon-speakers");
+    mobSoundBtn.classList.toggle("icon-speaker");
 
-  // muteBtn.addEventListener("click", () => {
-  //   if (audioPlayer.volume === 0) {
-  //     audioPlayer.volume = 1.0;
-  //     muteBtn.classList.add("icon-speakers");
-  //     muteBtn.classList.remove("icon-speaker");
-  //   } else {
-  //     audioPlayer.volume = 0;
-  //     muteBtn.classList.add("icon-speakers");
-  //     muteBtn.classList.remove("icon-speaker");
-  //   }
-  // });
+    if (audioPlayer.paused) {
+      audioPlayer.play();
+    } else {
+      audioPlayer.pause();
+    }
+  });
 
   function loadTrack(trackIndex) {
     const track = tracks[trackIndex];

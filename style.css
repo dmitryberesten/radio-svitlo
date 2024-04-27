@@ -2503,7 +2503,7 @@ img {
 @media only screen and (max-width: 480px) {
   .icon-speakers {
     font-size: 70px;
-    pointer-events: none;
+    /* pointer-events: none; */
     /* display: none !important; */
   }
 
@@ -2518,6 +2518,13 @@ img {
   .team-border {
     max-width: 50%;
     margin: 0 auto;
+  }
+
+  .mob-sound-on {
+
+  }
+  .mob-sound-off {
+
   }
 
 }
