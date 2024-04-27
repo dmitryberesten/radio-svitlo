@@ -2498,6 +2498,10 @@ img {
   padding: 15px 30px !important;
 }
 
+.volume-slider {
+  display: none !important;
+}
+
 /* Mobile */
 
 @media only screen and (max-width: 480px) {
