@@ -2507,6 +2507,17 @@ img {
     /* display: none !important; */
   }
 
+  .icon-speaker {
+    font-size: 67px;
+    margin-left: 3px;
+    /* pointer-events: none; */
+    /* display: none !important; */
+  }
+
+  .volume-slider {
+    display: none !important;
+  }
+
   .mobile-responsive {
     max-width: 50% !important;
   }
@@ -2520,11 +2531,8 @@ img {
     margin: 0 auto;
   }
 
-  .mob-sound-on {
+  .mob-sound-on {}
 
-  }
-  .mob-sound-off {
-
-  }
+  .mob-sound-off {}
 
 }
