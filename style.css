@@ -2504,6 +2504,7 @@ img {
   .icon-speakers {
     font-size: 70px;
     pointer-events: none;
+    /* display: none !important; */
   }
 
   .mobile-responsive {
