@@ -2540,3 +2540,9 @@ img {
   .mob-sound-off {}
 
 }
+
+@media (min-width: 480px) and (max-width: 900px){
+  .player-fixed {
+    display: none;
+  }
+}
