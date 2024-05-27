@@ -75,7 +75,7 @@
     });
 
     albumSlides.owlCarousel({
-      items: 5,
+      items: 3,
       margin: 30,
       loop: true,
       nav: true,
@@ -98,10 +98,10 @@
           items: 3,
         },
         992: {
-          items: 4,
+          items: 3,
         },
         1200: {
-          items: 5,
+          items: 3,
         },
       },
     });
