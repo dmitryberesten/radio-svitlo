@@ -198,6 +198,12 @@
       cover: "../music/Christina_Longs/profile.jpg",
       source: "../music/Christina_Longs/ty_zi_mnoyu.mp3",
     },
+    {
+      title: "Джерело надії",
+      artist: "SVOYA music",
+      cover: "../music/SVOYA_music/profile.jpg",
+      source: "../music/SVOYA_music/Dzherelo_nadii_Vselenna-.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
