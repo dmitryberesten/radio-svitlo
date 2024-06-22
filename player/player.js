@@ -43,6 +43,12 @@
       source: "../music/Pavlo_Volkov/farby.mp3",
     },
     {
+      title: "Хто створив Любов?",
+      artist: "Pavlo Volkov",
+      cover: "../music/Pavlo_Volkov/profile.jpg",
+      source: "../music/Pavlo_Volkov/khto-stvoryv.mp3",
+    },
+    {
       title: "Небо",
       artist: "KVANT",
       cover: "../music/KVANT/profile.jpg",
