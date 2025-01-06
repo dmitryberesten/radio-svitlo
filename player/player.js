@@ -28,7 +28,7 @@
       title: "Разом нас багато",
       artist: "Ivanka Manka",
       cover: "../music/Ivanka_Manka/profile.jpg",
-      source: "../music/Ivanka_Manka/razom.mp3",
+      source: "../music/Ivanka_Manka/razom(dictor).mp3",
     },
     {
       title: "Герой",
