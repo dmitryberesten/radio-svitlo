@@ -4,7 +4,7 @@
       title: "Зброя",
       artist: "Liam Fisher feat Саша Чеф",
       cover: "../music/Liam_Fisher/zbroja.jpg",
-      source: "../music/Liam_Fisher/zbroja.mp3",
+      source: "../music/Liam_Fisher/zbroja(dictor).mp3",
     },
     {
       title: "Збережи мене",
