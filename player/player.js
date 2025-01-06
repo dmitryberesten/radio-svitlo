@@ -10,7 +10,7 @@
       title: "Збережи мене",
       artist: "Imprint",
       cover: "../music/imprint/profile.jpg",
-      source: "../music/imprint/zberezhy.mp3",
+      source: "../music/imprint/zberezhy(dictor).mp3",
     },
     {
       title: "Все мине",
