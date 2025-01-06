@@ -16,7 +16,7 @@
       title: "Все мине",
       artist: "Анастасія Гетьман",
       cover: "../music/Getman_Anastasia/profile.jpg",
-      source: "../music/Getman_Anastasia/vse_myne.mp3",
+      source: "../music/Getman_Anastasia/vse_myne(dictor).mp3",
     },
     {
       title: "Примара",
