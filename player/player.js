@@ -22,7 +22,7 @@
       title: "Примара",
       artist: "LivingStone",
       cover: "../music/LivingStone/profile.jpg",
-      source: "../music/LivingStone/prymara.mp3",
+      source: "../music/LivingStone/prymara(dictor).mp3",
     },
     {
       title: "Разом нас багато",
