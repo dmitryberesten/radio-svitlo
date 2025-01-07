@@ -40,7 +40,7 @@
       title: "Фарби",
       artist: "Pavlo Volkov",
       cover: "../music/Pavlo_Volkov/profile.jpg",
-      source: "../music/Pavlo_Volkov/farby.mp3",
+      source: "../music/Pavlo_Volkov/farby(dictor).mp3",
     },
     {
       title: "Хто створив Любов?",
