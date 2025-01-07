@@ -52,7 +52,7 @@
       title: "Небо",
       artist: "KVANT",
       cover: "../music/KVANT/profile.jpg",
-      source: "../music/KVANT/nebo.mp3",
+      source: "../music/KVANT/nebo(dictor).mp3",
     },
     {
       title: "Над Водою",
