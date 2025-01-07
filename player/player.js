@@ -82,7 +82,7 @@
       title: "Січ",
       artist: "Sasha Chef",
       cover: "../music/Sasha_Chef/profile.jpg",
-      source: "../music/Sasha_Chef/sich.mp3",
+      source: "../music/Sasha_Chef/sich(dictor).mp3",
     },
     {
       title: "Спини весну",
