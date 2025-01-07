@@ -94,7 +94,7 @@
       title: "Від початку",
       artist: "Katia Simchuk",
       cover: "../music/Katia_Simchuk/profile.jpg",
-      source: "../music/Katia_Simchuk/pochatok.mp3",
+      source: "../music/Katia_Simchuk/pochatok(dictor).mp3",
     },
     {
       title: "Цар Слави",
