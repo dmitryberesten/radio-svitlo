@@ -100,7 +100,7 @@
       title: "Цар Слави",
       artist: "Крізь cтіни",
       cover: "../music/Kriz_Stiny/profile.jpg",
-      source: "../music/Kriz_Stiny/Tsar_Slavy.mp3",
+      source: "../music/Kriz_Stiny/Tsar_Slavy(dictor).mp3",
     },
     {
       title: "Я йду до Тебе",
