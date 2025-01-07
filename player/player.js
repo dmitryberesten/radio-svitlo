@@ -58,7 +58,7 @@
       title: "Над Водою",
       artist: "ILO.NA",
       cover: "../music/ILO.NA/profile.jpg",
-      source: "../music/ILO.NA/nad_vodoyu.mp3",
+      source: "../music/ILO.NA/nad_vodoyu(dictor).mp3",
     },
     {
       title: "Світло",
