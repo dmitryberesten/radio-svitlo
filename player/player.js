@@ -106,7 +106,7 @@
       title: "Я йду до Тебе",
       artist: "Irena Pasichnyk",
       cover: "../music/Irena_Pasichnyk/profile.jpg",
-      source: "../music/Irena_Pasichnyk/ya_ydu_do_Tebe.mp3",
+      source: "../music/Irena_Pasichnyk/ya_ydu_do_Tebe(dictor).mp3",
     },
     {
       title: "Боже мій",
