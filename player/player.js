@@ -64,7 +64,7 @@
       title: "Світло",
       artist: "KaVa",
       cover: "../music/KaVa/profile.jpg",
-      source: "../music/KaVa/svitlo.mp3",
+      source: "../music/KaVa/svitlo(dictor).mp3",
     },
     {
       title: "Не залишу",
