@@ -34,7 +34,7 @@
       title: "Герой",
       artist: "Pavlo Volkov",
       cover: "../music/Pavlo_Volkov/profile.jpg",
-      source: "../music/Pavlo_Volkov/heroy.mp3",
+      source: "../music/Pavlo_Volkov/heroy(dictor).mp3",
     },
     {
       title: "Фарби",
