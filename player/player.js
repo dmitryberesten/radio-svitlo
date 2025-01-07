@@ -28,13 +28,7 @@
       title: "Разом нас багато",
       artist: "Ivanka Manka",
       cover: "../music/Ivanka_Manka/profile.jpg",
-      source: "../music/Ivanka_Manka/razom(dictor).mp3",
-    },
-    {
-      title: "Герой",
-      artist: "Pavlo Volkov",
-      cover: "../music/Pavlo_Volkov/profile.jpg",
-      source: "../music/Pavlo_Volkov/heroy(dictor).mp3",
+      source: "../music/Iva y/1`
     },
     {
       title: "Фарби",
