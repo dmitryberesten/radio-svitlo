@@ -76,7 +76,7 @@
       title: "Такої нема",
       artist: "Dina Shelpuk",
       cover: "../music/Dina_Shelpuk/profile.jpg",
-      source: "../music/Dina_Shelpuk/takoi_nema.mp3",
+      source: "../music/Dina_Shelpuk/takoi_nema(dictor).mp3",
     },
     {
       title: "Січ",
