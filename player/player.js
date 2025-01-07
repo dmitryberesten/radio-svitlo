@@ -46,7 +46,7 @@
       title: "Хто створив Любов?",
       artist: "Pavlo Volkov",
       cover: "../music/Pavlo_Volkov/profile.jpg",
-      source: "../music/Pavlo_Volkov/khto-stvoryv.mp3",
+      source: "../music/Pavlo_Volkov/khto-stvoryv(dictor).mp3",
     },
     {
       title: "Небо",
