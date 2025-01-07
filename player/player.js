@@ -70,7 +70,7 @@
       title: "Не залишу",
       artist: "Yurii Sobchenko",
       cover: "../music/Yurii_Sobchenko/profile.jpg",
-      source: "../music/Yurii_Sobchenko/ne_zalushy.mp3",
+      source: "../music/Yurii_Sobchenko/ne_zalushy(dictor).mp3",
     },
     {
       title: "Такої нема",
