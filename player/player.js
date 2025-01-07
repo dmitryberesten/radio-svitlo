@@ -112,7 +112,7 @@
       title: "Боже мій",
       artist: "Anastasiya Polo",
       cover: "../music/Anastasiya_Polo/profile.jpg",
-      source: "../music/Anastasiya_Polo/Bozhe_mij.mp3",
+      source: "../music/Anastasiya_Polo/Bozhe_mij(dictor).mp3",
     },
     {
       title: "Не мовчи",
