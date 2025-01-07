@@ -88,7 +88,7 @@
       title: "Спини весну",
       artist: "Roman Vashchuk",
       cover: "../music/Roman_Vashchuk/profile.jpg",
-      source: "../music/Roman_Vashchuk/vesna.mp3",
+      source: "../music/Roman_Vashchuk/vesna(dictor).mp3",
     },
     {
       title: "Від початку",
