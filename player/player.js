@@ -136,7 +136,7 @@
       title: "Герой",
       artist: "MyMammaWannaSleep!",
       cover: "../music/MyMammaWannaSleep!/profile.jpg",
-      source: "../music/MyMammaWannaSleep!/geroy.mp3",
+      source: "../music/MyMammaWannaSleep!/geroy(dictor).mp3",
     },
     {
       title: "Доброго вечора",
