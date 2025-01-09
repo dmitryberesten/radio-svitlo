@@ -142,7 +142,7 @@
       title: "Доброго вечора",
       artist: "Bria Blessing",
       cover: "../music/Bria_Blessing/profile.jpg",
-      source: "../music/Bria_Blessing/vecher.mp3",
+      source: "../music/Bria_Blessing/vecher(dictor).mp3",
     },
     {
       title: "Бігти",
