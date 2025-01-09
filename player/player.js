@@ -130,7 +130,7 @@
       title: "Тільки з Богом",
       artist: "ANNIKA",
       cover: "../music/ANNIKA/profile.jpg",
-      source: "../music/ANNIKA/tilky_z_Bogom.mp3",
+      source: "../music/ANNIKA/tilky_z_Bogom(dictor).mp3",
     },
     {
       title: "Герой",
