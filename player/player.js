@@ -124,7 +124,7 @@
       title: "Не здавайся",
       artist: "RULADA",
       cover: "../music/RULADA/profile.jpg",
-      source: "../music/RULADA/ne_zdavaysya.mp3",
+      source: "../music/RULADA/ne_zdavaysya(dictor).mp3",
     },
     {
       title: "Тільки з Богом",
