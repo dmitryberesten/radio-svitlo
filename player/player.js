@@ -118,7 +118,7 @@
       title: "Не мовчи",
       artist: "Ірина Кибукевич",
       cover: "../music/Iryna_Kibukievich/profile.jpg",
-      source: "../music/Iryna_Kibukievich/ne_movchy.mp3",
+      source: "../music/Iryna_Kibukievich/ne_movchy(dictor).mp3",
     },
     {
       title: "Не здавайся",
