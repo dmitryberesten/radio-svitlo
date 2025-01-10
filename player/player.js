@@ -184,7 +184,7 @@
       title: "Болить",
       artist: "Anna-Kristina",
       cover: "../music/Anna-Kristina/profile.jpg",
-      source: "../music/Anna-Kristina/bolyt.mp3",
+      source: "../music/Anna-Kristina/bolyt(dictor).mp3",
     },
     {
       title: "Не відпускай",
