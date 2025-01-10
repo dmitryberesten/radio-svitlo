@@ -214,7 +214,7 @@
       title: "Hallelujah",
       artist: "MATSEPA",
       cover: "../music/matsepa/cover.jpg",
-      source: "../music/matsepa/hallelujah.mp3",
+      source: "../music/matsepa/hallelujah(dictor).mp3",
     },
     // {
     //   title: "",
