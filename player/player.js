@@ -178,7 +178,7 @@
       title: "Де б я не був",
       artist: "НЕЙЖО",
       cover: "../music/neyzho/profile.jpg",
-      source: "../music/neyzho/de_b_ya_ne_buv.mp3",
+      source: "../music/neyzho/de_b_ya_ne_buv(dictor).mp3",
     },
     {
       title: "Болить",
