@@ -208,7 +208,7 @@
       title: "Джерело надії",
       artist: "SVOYA music",
       cover: "../music/SVOYA_music/profile.jpg",
-      source: "../music/SVOYA_music/Dzherelo_nadii_Vselenna-.mp3",
+      source: "../music/SVOYA_music/Dzherelo_nadii_Vselenna-(dictor).mp3",
     },
     {
       title: "Hallelujah",
