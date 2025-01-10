@@ -148,7 +148,7 @@
       title: "Бігти",
       artist: "Nastia Lykhosherstova",
       cover: "../music/Anastasia_Lykhosherstova/profile.jpg",
-      source: "../music/Anastasia_Lykhosherstova/bigty.mp3",
+      source: "../music/Anastasia_Lykhosherstova/bigty(dictor).mp3",
     },
     {
       title: "Якщо б не Ти",
