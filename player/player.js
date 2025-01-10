@@ -166,7 +166,7 @@
       title: "Втомились",
       artist: "CHOICE",
       cover: "../music/CHOICE/profile.jpg",
-      source: "../music/CHOICE/vtomylys.mp3",
+      source: "../music/CHOICE/vtomylys(dictor).mp3",
     },
     {
       title: "Гони",
