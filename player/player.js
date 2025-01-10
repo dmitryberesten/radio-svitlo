@@ -154,7 +154,7 @@
       title: "Якщо б не Ти",
       artist: "Денис Нікітін",
       cover: "../music/Denys_Nikitin/profile.jpg",
-      source: "../music/Denys_Nikitin/ty.mp3",
+      source: "../music/Denys_Nikitin/ty(dictor).mp3",
     },
     {
       title: "Тримаєш",
