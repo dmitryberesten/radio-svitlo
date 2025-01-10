@@ -190,7 +190,7 @@
       title: "Не відпускай",
       artist: "Lei La",
       cover: "../music/Lei-La/profile.jpg",
-      source: "../music/Lei-La/ne_vidpuskay.mp3",
+      source: "../music/Lei-La/ne_vidpuskay(dictor).mp3",
     },
     {
       title: "Додому",
