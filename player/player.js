@@ -172,7 +172,7 @@
       title: "Гони",
       artist: "Artem Banar",
       cover: "../music/Artem_Banar/profile.jpg",
-      source: "../music/Artem_Banar/gony.mp3",
+      source: "../music/Artem_Banar/gony(dictor).mp3",
     },
     {
       title: "Де б я не був",
