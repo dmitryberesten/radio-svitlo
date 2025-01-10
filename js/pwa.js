@@ -1,34 +1,34 @@
-let deferredPrompt;
+// Функція визначення iOS
+function isIos() {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /iphone|ipad|ipod/.test(userAgent);
+}
 
-// Обробка події "beforeinstallprompt"
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
+// Показати кнопку для iOS
+if (isIos()) {
+  const addToHomeScreenBtn = document.getElementById("addToHomeScreenBtn");
+  const iosInstructions = document.getElementById("iosInstructions");
 
-  // Отримання кнопки установки
-  const installButton = document.getElementById("installBtn");
-  installButton.style.display = "block"; // Показати кнопку
+  // Показати кнопку
+  addToHomeScreenBtn.style.display = "block";
 
-  // Обробка кліку по кнопці установки
-  installButton.addEventListener("click", () => {
-    deferredPrompt.prompt(); // Виклик системного діалогу установки
+  // Клік по кнопці показує інструкцію
+  addToHomeScreenBtn.addEventListener("click", () => {
+    iosInstructions.style.display = "block";
 
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === "accepted") {
-        console.log("Користувач погодився встановити додаток");
-      } else {
-        console.log("Користувач скасував установку");
-      }
-      deferredPrompt = null; // Скинути промпт після використання
-    });
+    // Автоматично приховати інструкцію через 10 секунд
+    setTimeout(() => {
+      iosInstructions.style.display = "none";
+    }, 10000);
   });
-});
+} else {
+  // Показати кнопку для інших платформ
+  const addToHomeScreenBtn = document.getElementById("addToHomeScreenBtn");
+  addToHomeScreenBtn.style.display = "block";
 
-// Обробка події "appinstalled"
-window.addEventListener("appinstalled", () => {
-  console.log("Додаток успішно встановлено!");
-
-  // Приховати кнопку після установки
-  const installButton = document.getElementById("installBtn");
-  installButton.style.display = "none";
-});
+  addToHomeScreenBtn.addEventListener("click", () => {
+    alert(
+      "Цей додаток можна додати на головний екран вручну через опції браузера."
+    );
+  });
+}
