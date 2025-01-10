@@ -196,7 +196,7 @@
       title: "Додому",
       artist: "Kana Band",
       cover: "../music/Kana-Band/profile.jpg",
-      source: "../music/Kana-Band/dodomu.mp3",
+      source: "../music/Kana-Band/dodomu(dictor).mp3",
     },
     {
       title: "Ти зі мною",
