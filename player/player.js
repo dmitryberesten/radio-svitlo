@@ -202,7 +202,7 @@
       title: "Ти зі мною",
       artist: "Christina Longs",
       cover: "../music/Christina_Longs/profile.jpg",
-      source: "../music/Christina_Longs/ty_zi_mnoyu.mp3",
+      source: "../music/Christina_Longs/ty_zi_mnoyu(dictor).mp3",
     },
     {
       title: "Джерело надії",
