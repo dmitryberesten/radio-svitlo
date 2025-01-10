@@ -160,7 +160,7 @@
       title: "Тримаєш",
       artist: "CHOICE",
       cover: "../music/CHOICE/profile.jpg",
-      source: "../music/CHOICE/trymaesh.mp3",
+      source: "../music/CHOICE/trymaesh(dictor).mp3",
     },
     {
       title: "Втомились",
