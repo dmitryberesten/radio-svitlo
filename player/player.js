@@ -216,6 +216,12 @@
       cover: "../music/matsepa/cover.jpg",
       source: "../music/matsepa/hallelujah(dictor).mp3",
     },
+    {
+      title: "Тобі Вся Слава",
+      artist: "Vlad Khavela",
+      cover: "../music/Vlad_Khavela/profile.jpg",
+      source: "../music/Vlad_Khavela/Tobi(dictor).mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
