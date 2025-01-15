@@ -2553,7 +2553,7 @@ img {
 
   .icon-play-button:before {
     content: "\e947";
-    font-size: 60px;
+    font-size: inherit;
   }
 
   .cover {
