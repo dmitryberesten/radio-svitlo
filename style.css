@@ -2548,7 +2548,7 @@ img {
   }
 
   .single-web-icon {
-    padding: 25px;
+    padding: 0px !important;
   }
 
   .icon-play-button:before {
