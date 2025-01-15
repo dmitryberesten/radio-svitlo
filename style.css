@@ -2541,8 +2541,23 @@ img {
 
 }
 
-@media (min-width: 480px) and (max-width: 900px){
+@media (min-width: 480px) and (max-width: 900px) {
   .player-fixed {
-    display: none;
+    /* display: none; */
+    max-width: 500px;
+  }
+
+  .single-web-icon {
+    padding: 25px;
+  }
+
+  .icon-play-button:before {
+    content: "\e947";
+    font-size: 60px;
+  }
+
+  .cover {
+    width: 60px;
+    height: 60px;
   }
 }
