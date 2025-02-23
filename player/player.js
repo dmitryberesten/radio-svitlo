@@ -222,6 +222,12 @@
       cover: "../music/Vlad_Khavela/profile.jpg",
       source: "../music/Vlad_Khavela/Tobi(dictor).mp3",
     },
+    {
+      title: "No Illusions",
+      artist: "Impulse Worship",
+      cover: "../music/impulse/no_Illusions.jpg",
+      source: "../music/impulse/no_Illusions.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
