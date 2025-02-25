@@ -228,6 +228,12 @@
       cover: "../music/impulse/no_Illusions.jpg",
       source: "../music/impulse/no_Illusions.mp3",
     },
+    {
+      title: "Маю Бога в серці",
+      artist: "WinVin",
+      cover: "../music/WinVin/profile.jpg",
+      source: "../music/WinVin/bog_v_serci.mp3",
+    },
     // {
     //   title: "",
     //   artist: "",
