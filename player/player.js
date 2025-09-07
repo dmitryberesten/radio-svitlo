@@ -240,12 +240,12 @@
       cover: "../music/WinVin/boziplan_cover.jpg",
       source: "../music/WinVin/George_Balga_x_DJ_Damian_Custom_Boží_Plán_WinVin_REMIX.mp3",
     },
-    // {
-    //   title: "",
-    //   artist: "",
-    //   cover: "../music",
-    //   source: "../music",
-    // },
+    {
+      title: "Запали",
+      artist: "Ольга Андрушко",
+      cover: "../music/olha_andrushko/zapaly_cover.jpg",
+      source: "../music/olha_andrushko/andrushko_zapaly.mp3",
+    },
   ];
 
   let currentTrackIndex = 0;
