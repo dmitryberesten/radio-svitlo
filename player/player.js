@@ -259,6 +259,12 @@
       cover: "../music/Anastasia_Lykhosherstova/cover_zerno.jpg",
       source: "../music/Anastasia_Lykhosherstova/zerno.mp3",
     },
+    {
+      title: "Ісус мій путівник",
+      artist: "Rodemay by AI",
+      cover: "../music/Rodemay_by_AI/cover_Isus_miy_putivnyk.jpeg",
+      source: "../music/Rodemay_by_AI/Isus_miy_putivnyk.mp3",
+    },
   ];
 
   let currentTrackIndex = 0;
