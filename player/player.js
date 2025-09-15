@@ -277,6 +277,12 @@
       cover: "../music/Theo_Luna/cover.jpg",
       source: "../music/Theo_Luna/Ісусе_довіряю_Тобі.mp3",
     },
+    {
+      title: "Я хочу додому",
+      artist: "Nastia Lykhosherstova",
+      cover: "../music/Anastasia_Lykhosherstova/dodomy(cover).jpg",
+      source: "../music/Anastasia_Lykhosherstova/dodomu.mp3",
+    },
   ];
 
   let currentTrackIndex = 0;
