@@ -283,6 +283,12 @@
       cover: "../music/Anastasia_Lykhosherstova/dodomy(cover).jpg",
       source: "../music/Anastasia_Lykhosherstova/dodomu.mp3",
     },
+    {
+      title: "Ось Я з тобою",
+      artist: "K. Zhulkina & SY Worship",
+      cover: "../music/SY_Worship_feat_Kristina_Zhulkina/ya_z_toboyu(cover).jpg",
+      source: "../music/SY_Worship_feat_Kristina_Zhulkina/ya_z_toboyu(song).mp3",
+    },
   ];
 
   let currentTrackIndex = 0;
