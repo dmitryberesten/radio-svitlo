@@ -286,7 +286,7 @@
     {
       title: "Ось Я з тобою",
       artist: "K. Zhulkina & SY Worship",
-      cover: "../music/SY_Worship_feat_Kristina_Zhulkina/ya_z_toboyu(cover).jpg",
+      cover: "../music/SY_Worship_feat_Kristina_Zhulkina/ya_z_toboy(cover).jpg",
       source: "../music/SY_Worship_feat_Kristina_Zhulkina/ya_z_toboyu(song).mp3",
     },
   ];
