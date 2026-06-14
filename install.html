@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="uk" style="background-color: black">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Встановіть додаток Радіо Світло на екран додому — швидкий доступ в один клік.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Radio Svitlo" />
+
+    <title>Встановити додаток — Radio Svitlo</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <!-- Open Graph — for social sharing -->
+    <meta property="og:title" content="Встановити додаток Радіо Світло">
+    <meta property="og:description"
+        content="Додай Радіо Світло на екран «Додому» iPhone для швидкого доступу в один клік.">
+    <meta property="og:image" content="https://radio-svitlo.com/favicon/apple-touch-icon.png">
+    <meta property="og:url" content="https://radio-svitlo.com/install.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/classy-nav.css">
+    <link rel="stylesheet" href="./css/one-music-icon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/pwa-ios-prompt.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7FM6ZQGZ8G"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-7FM6ZQGZ8G');
+</script>
+
+<body>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area" id="main">
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <a class="nav-brand" href="index.html" style="color: white; max-width: 190px;">RADIO SVITLO <i
+                                class="icon-idea"></i></a>
+
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <div class="classy-menu">
+
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Головна</a></li>
+                                    <li><a href="index.html#artists">Виконавці</a></li>
+                                    <li><a href="index.html#download">Завантажити</a></li>
+                                    <li><a href="index.html#team" style="text-transform: none;">Команда</a></li>
+                                    <li><a href="index.html#donate">Донат</a></li>
+                                    <li><a href="install.html" class="active" style="color: #0a84ff;">Додаток</a></li>
+                                </ul>
+
+                                <div class="login-register-cart-button d-flex align-items-center">
+                                    <div class="login-register-btn mr-50 disp-none" style="opacity: 0;">
+                                        <a href="#" id="loginBtn">Login / Register</a>
+                                    </div>
+                                    <div class="cart-btn disp-big">
+                                        <p><a href="https://www.instagram.com/_radio.svitlo_" target="_blank"
+                                                style="font-size: 30px; color: white;"><i
+                                                    class="fa fa-instagram"></i></a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Install Section ##### -->
+    <section class="pwa-install-section">
+        <div class="pwa-install-section__inner" style="max-width:900px;">
+
+            <div class="pwa-install-section__heading" style="text-align:center; margin-bottom: 65px;">
+                <!-- <h1>Завантажити додаток Радіо Світло</h1> -->
+                <!-- <p>Доступно для iPhone, Android та Windows — без магазинів та підписок</p> -->
+            </div>
+
+            <div class="pwa-install-section__grid pwa-install-section__grid--3">
+
+                <!-- ═══════════════ iPhone / iOS ═══════════════ -->
+                <div class="pwa-install-section__platform">
+                    <div class="pwa-install-section__platform-label">
+                        <!-- Apple logo -->
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            fill="rgba(235,235,245,0.45)">
+                            <path
+                                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                        </svg>
+                        iPhone (Safari)
+                    </div>
+
+                    <div class="pwa-ios-prompt__card">
+                        <div class="pwa-ios-prompt__header">
+                            <img class="pwa-ios-prompt__icon" src="./favicon/apple-touch-icon.png"
+                                alt="Логотип Радіо Світло" width="60" height="60" loading="eager">
+                            <div>
+                                <p class="pwa-ios-prompt__title">Встановити додаток<br>Радіо Світло</p>
+                                <p class="pwa-ios-prompt__subtitle">radio-svitlo.com</p>
+                            </div>
+                        </div>
+
+                        <div class="pwa-ios-prompt__divider"></div>
+
+                        <p class="pwa-ios-prompt__desc">
+                            Додай Радіо Світло на екран «Додому» для швидкого доступу в один клік.
+                        </p>
+
+                        <div class="pwa-ios-prompt__steps">
+                            <div class="pwa-ios-prompt__step">
+                                <span class="pwa-ios-prompt__step-num">1</span>
+                                <span class="pwa-ios-prompt__step-text">
+                                    Натисніть кнопку «Поділитися»
+                                    <svg class="pwa-ios-prompt__share-icon" viewBox="0 0 18 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path d="M9 1v12M5 5l4-4 4 4" stroke="rgba(10,132,255,0.9)" stroke-width="1.8"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M2 10v7a1 1 0 001 1h12a1 1 0 001-1v-7" stroke="rgba(10,132,255,0.9)"
+                                            stroke-width="1.8" stroke-linecap="round" />
+                                    </svg>
+                                    (квадрат зі стрілкою) внизу Safari.
+                                </span>
+                            </div>
+                            <div class="pwa-ios-prompt__step">
+                                <span class="pwa-ios-prompt__step-num">2</span>
+                                <span class="pwa-ios-prompt__step-text">
+                                    Оберіть «<strong style="color:#f2f2f7">Додати на початковий екран</strong>» і
+                                    натисніть «Додати».
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /iOS platform -->
+
+                <!-- ═══════════════ Android (Chrome) ═══════════════ -->
+                <div class="pwa-install-section__platform">
+                    <div class="pwa-install-section__platform-label">
+                        <!-- Android logo -->
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            fill="rgba(235,235,245,0.45)">
+                            <path
+                                d="M17.523 15.341A5.98 5.98 0 0 0 18 13a5.98 5.98 0 0 0-.477-2.341l2.018-1.165a.5.5 0 0 0-.502-.865l-2.02 1.166A5.994 5.994 0 0 0 13 8.05V5.5h1a.5.5 0 0 0 0-1h-4a.5.5 0 0 0 0 1h1v2.55a5.994 5.994 0 0 0-4.019 2.245L4.96 9.129a.5.5 0 1 0-.502.865l2.019 1.165A5.98 5.98 0 0 0 6 13a5.98 5.98 0 0 0 .477 2.341L4.46 16.506a.5.5 0 0 0 .502.865l2.02-1.166A5.994 5.994 0 0 0 11 18.95V21h-1a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-1v-2.05a5.994 5.994 0 0 0 4.019-2.245l2.019 1.166a.5.5 0 1 0 .502-.865l-2.017-1.165ZM12 18a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm-1.5-5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0Z" />
+                        </svg>
+                        Android (Chrome)
+                    </div>
+
+                    <div class="pwa-ios-prompt__card">
+                        <div class="pwa-ios-prompt__header">
+                            <img class="pwa-ios-prompt__icon" src="./favicon/apple-touch-icon.png"
+                                alt="Логотип Радіо Світло" width="60" height="60" loading="eager">
+                            <div>
+                                <p class="pwa-ios-prompt__title">Встановити додаток<br>Радіо Світло</p>
+                                <p class="pwa-ios-prompt__subtitle">radio-svitlo.com</p>
+                            </div>
+                        </div>
+
+                        <div class="pwa-ios-prompt__divider"></div>
+
+                        <p class="pwa-ios-prompt__desc">
+                            Додай Радіо Світло на головний екран Android для швидкого доступу в один клік.
+                        </p>
+
+                        <!-- Native install button (shown when beforeinstallprompt fires) -->
+                        <button id="pwa-android-install-btn" class="pwa-android-btn" style="display:none;"
+                            type="button">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M5 20h14v-2H5v2zm7-18L5.33 9h4.34v6h4.66V9h4.34L12 2z" />
+                            </svg>
+                            Встановити додаток
+                        </button>
+
+                        <!-- Installed state (shown after install) -->
+                        <button id="pwa-android-installed-btn" class="pwa-android-btn pwa-android-btn--installed"
+                            style="display:none;" type="button">
+                            ✓ Додаток встановлено
+                        </button>
+
+                        <!-- Manual fallback steps -->
+                        <div class="pwa-android-fallback" id="pwa-android-fallback">
+                            <p class="pwa-android-fallback__title">Або вручну через меню Chrome</p>
+                            <div class="pwa-ios-prompt__steps">
+                                <div class="pwa-ios-prompt__step">
+                                    <span class="pwa-ios-prompt__step-num"
+                                        style="background:rgba(52,168,83,0.85);">1</span>
+                                    <span class="pwa-ios-prompt__step-text">
+                                        Натисніть меню
+                                        <span class="pwa-android-dots-icon" aria-label="три крапки">
+                                            <span></span><span></span><span></span>
+                                        </span>
+                                        у верхньому правому куті Chrome.
+                                    </span>
+                                </div>
+                                <div class="pwa-ios-prompt__step">
+                                    <span class="pwa-ios-prompt__step-num"
+                                        style="background:rgba(52,168,83,0.85);">2</span>
+                                    <span class="pwa-ios-prompt__step-text">
+                                        Оберіть «<strong style="color:#f2f2f7">Додати на головний екран</strong>» або
+                                        «<strong style="color:#f2f2f7">Встановити додаток</strong>».
+                                    </span>
+                                </div>
+                                <div class="pwa-ios-prompt__step">
+                                    <span class="pwa-ios-prompt__step-num"
+                                        style="background:rgba(52,168,83,0.85);">3</span>
+                                    <span class="pwa-ios-prompt__step-text">
+                                        Натисніть «<strong style="color:#f2f2f7">Встановити</strong>» у діалозі.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /Android platform -->
+
+                <!-- ═══════════════ Windows ═══════════════ -->
+                <div class="pwa-install-section__platform">
+                    <div class="pwa-install-section__platform-label">
+                        <!-- Windows logo -->
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            fill="rgba(235,235,245,0.45)">
+                            <path
+                                d="M3 12V6.75l6-1.32v6.57H3zm17-9v8.75h-7V4.68L20 3zM3 13h6v6.43l-6-1.29V13zm17 .25V22l-7-1.23V13h7z" />
+                        </svg>
+                        Windows
+                    </div>
+
+                    <div class="pwa-ios-prompt__card">
+                        <div class="pwa-ios-prompt__header">
+                            <img class="pwa-ios-prompt__icon" src="./favicon/apple-touch-icon.png"
+                                alt="Логотип Радіо Світло" width="60" height="60" loading="eager">
+                            <div>
+                                <p class="pwa-ios-prompt__title">Додаток<br>Радіо Світло</p>
+                                <p class="pwa-ios-prompt__subtitle">Версія для Windows</p>
+                            </div>
+                        </div>
+
+                        <div class="pwa-ios-prompt__divider"></div>
+
+                        <p class="pwa-ios-prompt__desc">
+                            Нативний додаток для Windows. Завантаж та встанови — слухай Радіо Світло без браузера.
+                        </p>
+
+                        <div class="pwa-ios-prompt__steps">
+                            <div class="pwa-ios-prompt__step">
+                                <span class="pwa-ios-prompt__step-num" style="background:rgba(0,120,212,0.85);">1</span>
+                                <span class="pwa-ios-prompt__step-text">
+                                    Натисніть кнопку «<strong style="color:#f2f2f7">Завантажити</strong>» нижче.
+                                </span>
+                            </div>
+                            <div class="pwa-ios-prompt__step">
+                                <span class="pwa-ios-prompt__step-num" style="background:rgba(0,120,212,0.85);">2</span>
+                                <span class="pwa-ios-prompt__step-text">
+                                    Відкрийте завантажений файл <strong style="color:#f2f2f7">RadioSvitlo.exe</strong>
+                                    та запустіть встановлення.
+                                </span>
+                            </div>
+                            <div class="pwa-ios-prompt__step">
+                                <span class="pwa-ios-prompt__step-num" style="background:rgba(0,120,212,0.85);">3</span>
+                                <span class="pwa-ios-prompt__step-text">
+                                    Готово — іконка додатку з'явиться на робочому столі.
+                                </span>
+                            </div>
+                        </div>
+
+                        <a href="./download/RadioSvitlo.exe" class="pwa-android-btn"
+                            style="background:#0078d4; margin-top:16px;" download>
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="#fff"
+                                width="18" height="18">
+                                <path d="M5 20h14v-2H5v2zm7-18L5.33 9h4.34v6h4.66V9h4.34L12 2z" />
+                            </svg>
+                            Завантажити для Windows
+                        </a>
+                    </div>
+                </div><!-- /Windows platform -->
+
+            </div><!-- /.pwa-install-section__grid -->
+
+            <a href="index.html" class="pwa-install-section__back">← Повернутися на сайт</a>
+
+        </div>
+    </section>
+    <!-- ##### Install Section End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area" style="padding: 18px 0;">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                    <a href="index.html" style="color: white; max-width: 155px; font-size: 20px;">RADIO SVITLO <i
+                            class="icon-idea"></i></a>
+                    <p class="copywrite-text">
+                        &copy;
+                        <script>document.write(new Date().getFullYear());</script>
+                        Українське музичне християнське онлайн-радіо<br>
+                        Цей веб-сайт розробив з любов'ю
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/dmitry_beresten" target="_blank"> Dima Beresten</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-6" style="text-align: end; color: white; font-size: 30px;">
+                    <span><i class="icon-music note"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/active.js"></script>
+
+    <!-- Android PWA install logic -->
+    <script>
+        (function () {
+            'use strict';
+
+            var deferredPrompt = null;
+            var installBtn = document.getElementById('pwa-android-install-btn');
+            var installedBtn = document.getElementById('pwa-android-installed-btn');
+            var fallback = document.getElementById('pwa-android-fallback');
+
+            // If already running as standalone PWA — show "installed" state
+            if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
+                if (installBtn) installBtn.style.display = 'none';
+                if (installedBtn) installedBtn.style.display = 'flex';
+                if (fallback) fallback.style.display = 'none';
+                return;
+            }
+
+            // Capture the install prompt event (Chrome Android)
+            window.addEventListener('beforeinstallprompt', function (e) {
+                e.preventDefault();
+                deferredPrompt = e;
+
+                // Show the native-trigger button and hide manual fallback
+                if (installBtn) installBtn.style.display = 'flex';
+                if (fallback) fallback.style.display = 'none';
+            });
+
+            // Button click — trigger Chrome native dialog
+            if (installBtn) {
+                installBtn.addEventListener('click', function () {
+                    if (!deferredPrompt) return;
+                    deferredPrompt.prompt();
+                    deferredPrompt.userChoice.then(function (choice) {
+                        deferredPrompt = null;
+                        if (choice.outcome === 'accepted') {
+                            installBtn.style.display = 'none';
+                            installedBtn.style.display = 'flex';
+                        }
+                    });
+                });
+            }
+
+            // After successful install via any path
+            window.addEventListener('appinstalled', function () {
+                deferredPrompt = null;
+                if (installBtn) installBtn.style.display = 'none';
+                if (installedBtn) installedBtn.style.display = 'flex';
+                if (fallback) fallback.style.display = 'none';
+            });
+        }());
+    </script>
+
+</body>
+
+</html>
